@@ -22,7 +22,7 @@ if train_new_model:
     X_train = tf.keras.utils.normalize(X_train, axis=1)
     X_test = tf.keras.utils.normalize(X_test, axis=1)
 
-    ####################################### NEURAL NETWORK MODEL CREATION#######################################
+    ####################################### NEURAL NETWORK MODEL CREATION #######################################
     
     # We will define our model sequential
     model = tf.keras.models.Sequential()
